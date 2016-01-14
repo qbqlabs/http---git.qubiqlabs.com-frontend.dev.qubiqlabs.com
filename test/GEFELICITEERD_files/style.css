@@ -1,0 +1,58 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{
+	margin:0;
+	padding:0;
+	border:0;
+	font:inherit;
+	font-size:100%;
+	vertical-align:baseline
+}
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}
+	a{ text-decoration:none;}
+
+body{
+	font-size: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+.clear{ clear:both;}
+ul, ul li{ margin:0; padding:0;}
+
+
+.container{width:60%;margin: 0 auto;}
+header{ background:#0b3b56; color:#fff; padding:15px 0; width:100%;}
+.top-left{ float:left; font-weight:600; font-size:15px; }
+.top-right{ float:right; font-size:12px; text-align:right;}
+.bodypart{ width:100%; padding:20px 0;}
+.detailstext{ clear:both; padding:15px 0; font-size:13px; line-height:20px; margin: 15px 0; padding: 15px; background:#d9f0fd;}
+h1.blue-bigtext{ color:#053855; font-size:25px; font-weight:700;   line-height:50px;}
+h2.midtext{font-size:17px; font-weight:600;  line-height:45px;}
+.detailstext p{ margin:10px 0;}
+.detailstext p.big-text{ font-size:16px;}
+.detailstext p.big-text span{ font-weight:bold;}
+.detailsbutton{ clear:both; padding:15px 0;}
+.detailsbutton a.button{ display:block; color:#fff; background:#38b2e1; border-radius:5px; font-size:18px; font-weight:700; text-transform:uppercase; padding:12px 30px; margin-right:12px; text-shadow:1px 1.5px 0 #146787; border-bottom:4px solid #146787; box-shadow:0 4px 4px -2px #666; min-width:60px; text-align:center; transition:0.5s; width:40%; margin:15px 0;}
+.detailsbutton a.button:hover{ background:#2e93ba; transition:0.5s;}
+#q2, #q3, #q4, #content2, #content3, #result1, #result2, #result3{ display:none;}
+p.loading{ text-align:center;}
+p.result{  border: 1px solid #0b3b56; color: #fff; float: left; font-weight: 600;  padding:10px 10px 10px 39px; width: auto; clear:both; background:#4fa7d9 url("http://70cc57063265152e7341-2512511d37810429868f1cda811d825f.r75.cf5.rackcdn.com/c/iphone/nl/2/tick.png") no-repeat scroll 2px 4px; margin:5px 0;}
+.main-content-left{ float:left; width:60%;}
+.main-content-right{ float:right; width:40%;}
+.comments-area{ font-size:13px; line-height:18px; font-family:Tahoma,Geneva,sans-serif;}
+.Reacties{ background:#4f7285; color:#fff;  margin: 15px 0; padding: 10px;}
+.Reacties p.left{ float:left; font-weight:700;}
+.Reacties p.right{ float:right; font-size:12px}
+.comments{ background:#eeeff4; margin:5px 0; padding:10px;}
+.profile{ float:left; width:90px; margin-right: 2%;}
+.profile img{ width:100%;}
+.comment-content p{ margin:5px 0;}
+.comment-content p.name{ color: #3b5998; cursor: pointer;  font-weight: bold;}
+.comment-status{cursor: pointer; font-size: 11px;}
+.comment-status span{color: #3b5998;}
+.comment-content{ width:75%;}
+
+#content3 h1.blue-bigtext{ font-size:20px; line-height:28px; margin:30px 0 15px;}
+#content3 h2.midtext{ font-size:16px; line-height:22px; font-weight:500;}
+
+
+
+
